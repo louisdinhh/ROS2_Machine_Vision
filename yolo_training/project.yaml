@@ -1,0 +1,7 @@
+train: /home/louisdinhh/agilex_ws/yolo_training/datasets/train/images
+val: /home/louisdinhh/agilex_ws/yolo_training/datasets/val/images
+names:
+  0: red
+  1: green
+  2: blue
+
