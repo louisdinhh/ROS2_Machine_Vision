@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/surround_cam/surround_cam.egg-info/PKG-INFO
+writing dependency_links to ../../build/surround_cam/surround_cam.egg-info/dependency_links.txt
+writing entry points to ../../build/surround_cam/surround_cam.egg-info/entry_points.txt
+writing requirements to ../../build/surround_cam/surround_cam.egg-info/requires.txt
+writing top-level names to ../../build/surround_cam/surround_cam.egg-info/top_level.txt
+reading manifest file '../../build/surround_cam/surround_cam.egg-info/SOURCES.txt'
+writing manifest file '../../build/surround_cam/surround_cam.egg-info/SOURCES.txt'
+running build
+running build_py
+copying surround_cam/surround_merger.py -> /home/louisdinhh/camera_360_ws/build/surround_cam/build/lib/surround_cam
+running install
+running install_lib
+copying /home/louisdinhh/camera_360_ws/build/surround_cam/build/lib/surround_cam/surround_merger.py -> /home/louisdinhh/camera_360_ws/install/surround_cam/lib/python3.10/site-packages/surround_cam
+byte-compiling /home/louisdinhh/camera_360_ws/install/surround_cam/lib/python3.10/site-packages/surround_cam/surround_merger.py to surround_merger.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/louisdinhh/camera_360_ws/install/surround_cam/lib/python3.10/site-packages/surround_cam-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/surround_cam/surround_cam.egg-info to /home/louisdinhh/camera_360_ws/install/surround_cam/lib/python3.10/site-packages/surround_cam-0.1.0-py3.10.egg-info
+running install_scripts
+Installing surround_cam script to /home/louisdinhh/camera_360_ws/install/surround_cam/lib/surround_cam
+writing list of installed files to '/home/louisdinhh/camera_360_ws/build/surround_cam/install.log'

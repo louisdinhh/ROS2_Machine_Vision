@@ -1,0 +1,5 @@
+setuptools==65.7.0
+opencv-python==4.2.0.34
+opencv-contrib-python==4.2.0.34
+numpy
+scipy

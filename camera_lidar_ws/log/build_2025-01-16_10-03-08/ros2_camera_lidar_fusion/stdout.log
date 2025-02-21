@@ -1,0 +1,8 @@
+running egg_info
+writing ../../build/ros2_camera_lidar_fusion/ros2_camera_lidar_fusion.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_camera_lidar_fusion/ros2_camera_lidar_fusion.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_camera_lidar_fusion/ros2_camera_lidar_fusion.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_camera_lidar_fusion/ros2_camera_lidar_fusion.egg-info/requires.txt
+writing top-level names to ../../build/ros2_camera_lidar_fusion/ros2_camera_lidar_fusion.egg-info/top_level.txt
+reading manifest file '../../build/ros2_camera_lidar_fusion/ros2_camera_lidar_fusion.egg-info/SOURCES.txt'
+adding license file 'LICENSE'

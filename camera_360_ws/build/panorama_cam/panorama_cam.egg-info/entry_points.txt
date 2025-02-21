@@ -1,0 +1,3 @@
+[console_scripts]
+panorama_cam = panorama_cam.camera_stitcher:main
+

@@ -1,0 +1,93 @@
+[0.014s] Invoking command in '/home/louisdinhh/camera_stereo_ws/build/image_rotate': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/image_rotate
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.131s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.136s] -- Detecting C compile features
+[0.136s] -- Detecting C compile features - done
+[0.138s] -- Detecting CXX compiler ABI info
+[0.189s] -- Detecting CXX compiler ABI info - done
+[0.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.196s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.297s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.452s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.455s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.548s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.598s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.616s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.642s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.647s] -- Looking for pthread.h
+[0.692s] -- Looking for pthread.h - found
+[0.692s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.736s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.737s] -- Found Threads: TRUE  
+[0.812s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.813s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.813s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.867s] -- Found OpenCV: /usr (found version "4.5.4") found components: core imgproc 
+[0.872s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.885s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.886s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.886s] -- Configured cppcheck include dirs: /home/louisdinhh/camera_stereo_ws/src/image_pipeline/image_rotate/include
+[0.886s] -- Configured cppcheck exclude dirs and/or files: 
+[0.886s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.886s] -- Configured cpplint exclude dirs and/or files: 
+[0.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.887s] -- Added test 'lint_cmake' to check CMake code style
+[0.887s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.888s] -- Added test 'uncrustify' to check C / C++ code style
+[0.888s] -- Configured uncrustify additional arguments: 
+[0.888s] -- Added test 'xmllint' to check XML markup files
+[0.889s] -- Configuring done
+[0.903s] -- Generating done
+[0.906s] -- Build files have been written to: /home/louisdinhh/camera_stereo_ws/build/image_rotate
+[0.912s] Invoked command in '/home/louisdinhh/camera_stereo_ws/build/image_rotate' returned '0': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/image_rotate
+[0.914s] Invoking command in '/home/louisdinhh/camera_stereo_ws/build/image_rotate': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/louisdinhh/camera_stereo_ws/build/image_rotate -- -j12 -l12
+[0.949s] [ 25%] [32mBuilding CXX object CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o[0m
+[15.802s] [ 50%] [32m[1mLinking CXX shared library libimage_rotate.so[0m
+[17.067s] [ 50%] Built target image_rotate
+[17.091s] [ 75%] [32mBuilding CXX object CMakeFiles/image_rotate_bin.dir/src/image_rotate.cpp.o[0m
+[19.797s] [100%] [32m[1mLinking CXX executable image_rotate[0m
+[20.204s] [100%] Built target image_rotate_bin
+[20.214s] Invoked command in '/home/louisdinhh/camera_stereo_ws/build/image_rotate' returned '0': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/louisdinhh/camera_stereo_ws/build/image_rotate -- -j12 -l12
+[20.237s] Invoking command in '/home/louisdinhh/camera_stereo_ws/build/image_rotate': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/louisdinhh/camera_stereo_ws/build/image_rotate
+[20.245s] -- Install configuration: ""
+[20.245s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/include
+[20.245s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/include/image_rotate
+[20.245s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/include/image_rotate/image_rotate_node.hpp
+[20.246s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/include/image_rotate/visibility.h
+[20.246s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/environment/library_path.sh
+[20.246s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/environment/library_path.dsv
+[20.246s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/lib/libimage_rotate.so
+[20.247s] -- Set runtime path of "/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib/libimage_rotate.so" to ""
+[20.247s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/lib/image_rotate/image_rotate
+[20.247s] -- Set runtime path of "/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib/image_rotate/image_rotate" to ""
+[20.247s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/launch
+[20.247s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/launch/image_rotate.launch.py
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/ament_index/resource_index/package_run_dependencies/image_rotate
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/ament_index/resource_index/parent_prefix_path/image_rotate
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.sh
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.dsv
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/environment/path.sh
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/environment/path.dsv
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/local_setup.bash
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/local_setup.sh
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/local_setup.zsh
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/local_setup.dsv
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/package.dsv
+[20.248s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/ament_index/resource_index/packages/image_rotate
+[20.249s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/ament_index/resource_index/rclcpp_components/image_rotate
+[20.249s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.249s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.249s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_libraries-extras.cmake
+[20.249s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig.cmake
+[20.249s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig-version.cmake
+[20.249s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/package.xml
+[20.252s] Invoked command in '/home/louisdinhh/camera_stereo_ws/build/image_rotate' returned '0': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/louisdinhh/camera_stereo_ws/build/image_rotate

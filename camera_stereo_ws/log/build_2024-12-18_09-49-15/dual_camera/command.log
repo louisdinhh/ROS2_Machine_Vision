@@ -1,0 +1,2 @@
+Invoking command in '/home/louisdinhh/camera_stereo_ws/build/dual_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/stereo_camera -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/dual_camera
+Invoked command in '/home/louisdinhh/camera_stereo_ws/build/dual_camera' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/stereo_camera -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/dual_camera

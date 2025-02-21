@@ -1,0 +1,6 @@
+Invoking command in '/home/louisdinhh/camera_stereo_ws/build/stereo_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/stereo_camera -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/stereo_camera
+Invoked command in '/home/louisdinhh/camera_stereo_ws/build/stereo_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/stereo_camera -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/stereo_camera
+Invoking command in '/home/louisdinhh/camera_stereo_ws/build/stereo_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louisdinhh/camera_stereo_ws/build/stereo_camera -- -j12 -l12
+Invoked command in '/home/louisdinhh/camera_stereo_ws/build/stereo_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/louisdinhh/camera_stereo_ws/build/stereo_camera -- -j12 -l12
+Invoking command in '/home/louisdinhh/camera_stereo_ws/build/stereo_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louisdinhh/camera_stereo_ws/build/stereo_camera
+Invoked command in '/home/louisdinhh/camera_stereo_ws/build/stereo_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/louisdinhh/camera_stereo_ws/build/stereo_camera

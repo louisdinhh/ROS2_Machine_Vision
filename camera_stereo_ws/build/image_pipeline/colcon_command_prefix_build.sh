@@ -1,0 +1,12 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/louisdinhh/camera_stereo_ws/install/camera_calibration/share/camera_calibration/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/image_transport/share/image_transport/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/share/camera_info_manager/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/share/depth_image_proc/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/image_proc/share/image_proc/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/image_rotate/share/image_rotate/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/image_view/share/image_view/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/image_publisher/share/image_publisher/package.sh"
+. "/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/share/stereo_image_proc/package.sh"

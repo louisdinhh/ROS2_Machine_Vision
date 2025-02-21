@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/panorama_cam/panorama_cam.egg-info
+writing ../../build/panorama_cam/panorama_cam.egg-info/PKG-INFO
+writing dependency_links to ../../build/panorama_cam/panorama_cam.egg-info/dependency_links.txt
+writing entry points to ../../build/panorama_cam/panorama_cam.egg-info/entry_points.txt
+writing requirements to ../../build/panorama_cam/panorama_cam.egg-info/requires.txt
+writing top-level names to ../../build/panorama_cam/panorama_cam.egg-info/top_level.txt
+writing manifest file '../../build/panorama_cam/panorama_cam.egg-info/SOURCES.txt'
+reading manifest file '../../build/panorama_cam/panorama_cam.egg-info/SOURCES.txt'
+writing manifest file '../../build/panorama_cam/panorama_cam.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/louisdinhh/camera_360_ws/build/panorama_cam/build
+creating /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib
+creating /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam
+copying panorama_cam/camera_stitcher.py -> /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam
+copying panorama_cam/__init__.py -> /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam
+running install
+running install_lib
+creating /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam
+copying /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam/camera_stitcher.py -> /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam
+copying /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam/__init__.py -> /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam
+byte-compiling /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam/camera_stitcher.py to camera_stitcher.cpython-310.pyc
+byte-compiling /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/louisdinhh/camera_360_ws/install/panorama_cam/share/ament_index
+creating /home/louisdinhh/camera_360_ws/install/panorama_cam/share/ament_index/resource_index
+creating /home/louisdinhh/camera_360_ws/install/panorama_cam/share/ament_index/resource_index/packages
+copying resource/panorama_cam -> /home/louisdinhh/camera_360_ws/install/panorama_cam/share/ament_index/resource_index/packages
+copying package.xml -> /home/louisdinhh/camera_360_ws/install/panorama_cam/share/panorama_cam
+creating /home/louisdinhh/camera_360_ws/install/panorama_cam/share/panorama_cam/launch
+error: can't copy 'launch/surround_cam.launch.py': doesn't exist or not a regular file

@@ -1,0 +1,1 @@
+Invoking command in '/home/louisdinhh/camera_360_ws/build/chironix_image_pipeline': CMAKE_PREFIX_PATH=/home/louisdinhh/camera_360_ws/install/surround_cam:/opt/ros/humble /usr/bin/cmake /home/louisdinhh/camera_360_ws/src/hackathon-2024-main/workspace/src/chironix_image_pipeline -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_360_ws/install/chironix_image_pipeline

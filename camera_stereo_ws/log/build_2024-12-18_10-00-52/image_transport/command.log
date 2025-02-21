@@ -1,0 +1,1 @@
+Invoking command in '/home/louisdinhh/camera_stereo_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/image_common/image_transport -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/image_transport

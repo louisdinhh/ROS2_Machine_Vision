@@ -1,0 +1,34 @@
+[0.700s] Invoking command in '/home/louisdinhh/camera_360_ws/src/panorama_cam': PYTHONPATH=/home/louisdinhh/camera_360_ws/build/panorama_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/panorama_cam build --build-base /home/louisdinhh/camera_360_ws/build/panorama_cam/build install --record /home/louisdinhh/camera_360_ws/build/panorama_cam/install.log --single-version-externally-managed install_data
+[0.844s] running egg_info
+[0.844s] creating ../../build/panorama_cam/panorama_cam.egg-info
+[0.844s] writing ../../build/panorama_cam/panorama_cam.egg-info/PKG-INFO
+[0.845s] writing dependency_links to ../../build/panorama_cam/panorama_cam.egg-info/dependency_links.txt
+[0.845s] writing entry points to ../../build/panorama_cam/panorama_cam.egg-info/entry_points.txt
+[0.845s] writing requirements to ../../build/panorama_cam/panorama_cam.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/panorama_cam/panorama_cam.egg-info/top_level.txt
+[0.845s] writing manifest file '../../build/panorama_cam/panorama_cam.egg-info/SOURCES.txt'
+[0.846s] reading manifest file '../../build/panorama_cam/panorama_cam.egg-info/SOURCES.txt'
+[0.846s] writing manifest file '../../build/panorama_cam/panorama_cam.egg-info/SOURCES.txt'
+[0.846s] running build
+[0.846s] running build_py
+[0.846s] creating /home/louisdinhh/camera_360_ws/build/panorama_cam/build
+[0.846s] creating /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib
+[0.846s] creating /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam
+[0.847s] copying panorama_cam/camera_stitcher.py -> /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam
+[0.847s] copying panorama_cam/__init__.py -> /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam
+[0.847s] running install
+[0.847s] running install_lib
+[0.847s] creating /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam
+[0.847s] copying /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam/camera_stitcher.py -> /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam
+[0.847s] copying /home/louisdinhh/camera_360_ws/build/panorama_cam/build/lib/panorama_cam/__init__.py -> /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam
+[0.848s] byte-compiling /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam/camera_stitcher.py to camera_stitcher.cpython-310.pyc
+[0.848s] byte-compiling /home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages/panorama_cam/__init__.py to __init__.cpython-310.pyc
+[0.849s] running install_data
+[0.849s] creating /home/louisdinhh/camera_360_ws/install/panorama_cam/share/ament_index
+[0.849s] creating /home/louisdinhh/camera_360_ws/install/panorama_cam/share/ament_index/resource_index
+[0.849s] creating /home/louisdinhh/camera_360_ws/install/panorama_cam/share/ament_index/resource_index/packages
+[0.849s] copying resource/panorama_cam -> /home/louisdinhh/camera_360_ws/install/panorama_cam/share/ament_index/resource_index/packages
+[0.849s] copying package.xml -> /home/louisdinhh/camera_360_ws/install/panorama_cam/share/panorama_cam
+[0.849s] creating /home/louisdinhh/camera_360_ws/install/panorama_cam/share/panorama_cam/launch
+[0.849s] error: can't copy 'launch/surround_cam.launch.py': doesn't exist or not a regular file
+[0.862s] Invoked command in '/home/louisdinhh/camera_360_ws/src/panorama_cam' returned '1': PYTHONPATH=/home/louisdinhh/camera_360_ws/build/panorama_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louisdinhh/camera_360_ws/install/panorama_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/panorama_cam build --build-base /home/louisdinhh/camera_360_ws/build/panorama_cam/build install --record /home/louisdinhh/camera_360_ws/build/panorama_cam/install.log --single-version-externally-managed install_data

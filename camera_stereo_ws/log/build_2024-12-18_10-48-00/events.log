@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000132] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.000141] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.000149] (-) JobUnselected: {'identifier': 'camera_info_manager_py'}
+[0.000159] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000166] (-) JobUnselected: {'identifier': 'image_common'}
+[0.000173] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000187] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000194] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000201] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000208] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.000215] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000222] (-) JobUnselected: {'identifier': 'opencv_cam'}
+[0.000229] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.000236] (-) JobUnselected: {'identifier': 'stereo_camera'}
+[0.000243] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.000250] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.000259] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers'), ('image_transport', '/home/louisdinhh/camera_stereo_ws/install/image_transport'), ('camera_info_manager', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager')])}
+[0.000603] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.007808] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.007976] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '/home/louisdinhh/camera_stereo_ws/src/usb_cam', '-DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/usb_cam'], 'cwd': '/home/louisdinhh/camera_stereo_ws/build/usb_cam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('USER', 'louisdinhh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/lib:/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/lib:/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib:/home/louisdinhh/camera_stereo_ws/install/image_view/lib:/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib:/home/louisdinhh/camera_stereo_ws/install/image_publisher/lib:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib'), ('HOME', '/home/louisdinhh'), ('OLDPWD', '/home/louisdinhh/camera_stereo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1739'), ('SYSTEMD_EXEC_PID', '1983'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8010'), ('COLCON_PREFIX_PATH', '/home/louisdinhh/camera_stereo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'louisdinhh'), ('JOURNAL_STREAM', '8:12811'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louisdinhh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/louisdinhh/camera_stereo_ws/install/image_proc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louisdinhh-MB-H610:@/tmp/.ICE-unix/1956,unix/louisdinhh-MB-H610:/tmp/.ICE-unix/1956'), ('INVOCATION_ID', 'a7f6fe0cbab2415cb57914cb216b4ac0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c063ea1d-5535-48b7-8c80-9c4adfc081bb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louisdinhh/camera_stereo_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py/lib/python3.10/site-packages:/home/louisdinhh/camera_stereo_ws/install/camera_calibration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/opt/ros/humble')]), 'shell': False}
+[0.044566] (usb_cam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.089399] (usb_cam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.093751] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099975] (-) TimerEvent: {}
+[0.155214] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.159878] (usb_cam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.160009] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.160268] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.162128] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200100] (-) TimerEvent: {}
+[0.212898] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.217578] (usb_cam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.217710] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.218003] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.219997] (usb_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.300179] (-) TimerEvent: {}
+[0.320745] (usb_cam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400344] (-) TimerEvent: {}
+[0.462682] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.466741] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.472917] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.481453] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.492808] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500481] (-) TimerEvent: {}
+[0.523466] (usb_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.525811] (usb_cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.578164] (usb_cam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.594934] (usb_cam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.600569] (-) TimerEvent: {}
+[0.619047] (usb_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.625641] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.691871] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.692014] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700656] (-) TimerEvent: {}
+[0.765329] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.766079] (usb_cam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800740] (-) TimerEvent: {}
+[0.900987] (-) TimerEvent: {}
+[0.906838] (usb_cam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.909512] (usb_cam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.910018] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[0.917869] (usb_cam) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[0.936147] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[0.944213] (usb_cam) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[0.966178] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[0.979073] (usb_cam) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.001174] (-) TimerEvent: {}
+[1.047668] (usb_cam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.066537] (usb_cam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.072313] (usb_cam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.074538] (usb_cam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.074663] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/louisdinhh/camera_stereo_ws/src/usb_cam/include\n'}
+[1.074691] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.076791] (usb_cam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.076833] (usb_cam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.077395] (usb_cam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.078161] (usb_cam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.078708] (usb_cam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.080658] (usb_cam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.080701] (usb_cam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.081241] (usb_cam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.082527] (usb_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.097744] (usb_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[1.098921] (usb_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/louisdinhh/camera_stereo_ws/build/usb_cam\n'}
+[1.101208] (-) TimerEvent: {}
+[1.105652] (usb_cam) CommandEnded: {'returncode': 0}
+[1.105997] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[1.106484] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/louisdinhh/camera_stereo_ws/build/usb_cam', '--', '-j12', '-l12'], 'cwd': '/home/louisdinhh/camera_stereo_ws/build/usb_cam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('USER', 'louisdinhh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/lib:/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/lib:/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib:/home/louisdinhh/camera_stereo_ws/install/image_view/lib:/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib:/home/louisdinhh/camera_stereo_ws/install/image_publisher/lib:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib'), ('HOME', '/home/louisdinhh'), ('OLDPWD', '/home/louisdinhh/camera_stereo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1739'), ('SYSTEMD_EXEC_PID', '1983'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8010'), ('COLCON_PREFIX_PATH', '/home/louisdinhh/camera_stereo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'louisdinhh'), ('JOURNAL_STREAM', '8:12811'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louisdinhh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/louisdinhh/camera_stereo_ws/install/image_proc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louisdinhh-MB-H610:@/tmp/.ICE-unix/1956,unix/louisdinhh-MB-H610:/tmp/.ICE-unix/1956'), ('INVOCATION_ID', 'a7f6fe0cbab2415cb57914cb216b4ac0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c063ea1d-5535-48b7-8c80-9c4adfc081bb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louisdinhh/camera_stereo_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py/lib/python3.10/site-packages:/home/louisdinhh/camera_stereo_ws/install/camera_calibration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/opt/ros/humble')]), 'shell': False}
+[1.168701] (usb_cam) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o\x1b[0m\n'}
+[1.169156] (usb_cam) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.169604] (usb_cam) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.170053] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o\x1b[0m\n'}
+[1.201359] (-) TimerEvent: {}
+[1.301796] (-) TimerEvent: {}
+[1.402120] (-) TimerEvent: {}
+[1.502445] (-) TimerEvent: {}
+[1.602771] (-) TimerEvent: {}
+[1.703103] (-) TimerEvent: {}
+[1.713708] (usb_cam) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.735422] (usb_cam) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[1.803283] (-) TimerEvent: {}
+[1.903614] (-) TimerEvent: {}
+[2.003946] (-) TimerEvent: {}
+[2.104282] (-) TimerEvent: {}
+[2.204609] (-) TimerEvent: {}
+[2.304886] (-) TimerEvent: {}
+[2.310722] (usb_cam) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam.so\x1b[0m\n'}
+[2.405077] (-) TimerEvent: {}
+[2.437215] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target usb_cam\n'}
+[2.451433] (usb_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o\x1b[0m\n'}
+[2.505170] (-) TimerEvent: {}
+[2.605493] (-) TimerEvent: {}
+[2.705820] (-) TimerEvent: {}
+[2.806106] (-) TimerEvent: {}
+[2.906438] (-) TimerEvent: {}
+[3.006690] (-) TimerEvent: {}
+[3.026694] (usb_cam) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable usb_cam_node_exe\x1b[0m\n'}
+[3.102476] (usb_cam) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[3.106480] (usb_cam) StdoutLine: {'line': b'[ 64%] Built target usb_cam_node_exe\n'}
+[3.106741] (-) TimerEvent: {}
+[3.136140] (usb_cam) StdoutLine: {'line': b'[ 64%] Built target gtest\n'}
+[3.151233] (usb_cam) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o\x1b[0m\n'}
+[3.151369] (usb_cam) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o\x1b[0m\n'}
+[3.206849] (-) TimerEvent: {}
+[3.307137] (-) TimerEvent: {}
+[3.407465] (-) TimerEvent: {}
+[3.507794] (-) TimerEvent: {}
+[3.608116] (-) TimerEvent: {}
+[3.708462] (-) TimerEvent: {}
+[3.808795] (-) TimerEvent: {}
+[3.892202] (usb_cam) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test_usb_cam_utils\x1b[0m\n'}
+[3.908966] (-) TimerEvent: {}
+[3.995834] (usb_cam) StdoutLine: {'line': b'[ 85%] Built target test_usb_cam_utils\n'}
+[4.009090] (-) TimerEvent: {}
+[4.082569] (usb_cam) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable test_pixel_formats\x1b[0m\n'}
+[4.109210] (-) TimerEvent: {}
+[4.178926] (usb_cam) StdoutLine: {'line': b'[ 92%] Built target test_pixel_formats\n'}
+[4.209302] (-) TimerEvent: {}
+[4.309605] (-) TimerEvent: {}
+[4.409925] (-) TimerEvent: {}
+[4.510247] (-) TimerEvent: {}
+[4.610503] (-) TimerEvent: {}
+[4.710823] (-) TimerEvent: {}
+[4.811143] (-) TimerEvent: {}
+[4.911451] (-) TimerEvent: {}
+[5.011780] (-) TimerEvent: {}
+[5.112109] (-) TimerEvent: {}
+[5.212435] (-) TimerEvent: {}
+[5.312754] (-) TimerEvent: {}
+[5.413087] (-) TimerEvent: {}
+[5.513401] (-) TimerEvent: {}
+[5.613695] (-) TimerEvent: {}
+[5.713985] (-) TimerEvent: {}
+[5.814293] (-) TimerEvent: {}
+[5.914583] (-) TimerEvent: {}
+[6.014892] (-) TimerEvent: {}
+[6.115183] (-) TimerEvent: {}
+[6.215491] (-) TimerEvent: {}
+[6.315793] (-) TimerEvent: {}
+[6.416106] (-) TimerEvent: {}
+[6.516409] (-) TimerEvent: {}
+[6.616715] (-) TimerEvent: {}
+[6.717025] (-) TimerEvent: {}
+[6.817371] (-) TimerEvent: {}
+[6.834060] (usb_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam_node.so\x1b[0m\n'}
+[6.917544] (-) TimerEvent: {}
+[7.017858] (-) TimerEvent: {}
+[7.118179] (-) TimerEvent: {}
+[7.198667] (usb_cam) StdoutLine: {'line': b'[100%] Built target usb_cam_node\n'}
+[7.206002] (usb_cam) CommandEnded: {'returncode': 0}
+[7.218255] (-) TimerEvent: {}
+[7.255524] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[7.271869] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/louisdinhh/camera_stereo_ws/build/usb_cam'], 'cwd': '/home/louisdinhh/camera_stereo_ws/build/usb_cam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('USER', 'louisdinhh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/lib:/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/lib:/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib:/home/louisdinhh/camera_stereo_ws/install/image_view/lib:/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib:/home/louisdinhh/camera_stereo_ws/install/image_publisher/lib:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib'), ('HOME', '/home/louisdinhh'), ('OLDPWD', '/home/louisdinhh/camera_stereo_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1739'), ('SYSTEMD_EXEC_PID', '1983'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8010'), ('COLCON_PREFIX_PATH', '/home/louisdinhh/camera_stereo_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'louisdinhh'), ('JOURNAL_STREAM', '8:12811'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louisdinhh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/louisdinhh/camera_stereo_ws/install/image_proc/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louisdinhh-MB-H610:@/tmp/.ICE-unix/1956,unix/louisdinhh-MB-H610:/tmp/.ICE-unix/1956'), ('INVOCATION_ID', 'a7f6fe0cbab2415cb57914cb216b4ac0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '14'), ('AMENT_PREFIX_PATH', '/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:c063ea1d-5535-48b7-8c80-9c4adfc081bb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louisdinhh/camera_stereo_ws/build/usb_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py/lib/python3.10/site-packages:/home/louisdinhh/camera_stereo_ws/install/camera_calibration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/opt/ros/humble')]), 'shell': False}
+[7.278149] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.278254] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[7.278335] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[7.278417] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[7.278677] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""\n'}
+[7.278716] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[7.278764] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/libusb_cam.so\n'}
+[7.279167] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[7.281016] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/libusb_cam_node.so" to ""\n'}
+[7.281058] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include\n'}
+[7.281103] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam\n'}
+[7.281131] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[7.281168] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats\n'}
+[7.281210] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp\n'}
+[7.281240] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp\n'}
+[7.281283] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp\n'}
+[7.281310] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp\n'}
+[7.281349] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp\n'}
+[7.281388] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats/mono.hpp\n'}
+[7.281426] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats/utils.hpp\n'}
+[7.281463] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats/m420.hpp\n'}
+[7.281501] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp\n'}
+[7.281544] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[7.281573] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[7.281611] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[7.281651] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[7.281686] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[7.281758] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/launch\n'}
+[7.281794] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[7.281831] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[7.281868] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[7.281903] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/config\n'}
+[7.281940] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[7.281978] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/config/params_1.yaml\n'}
+[7.282016] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/config/params_2.yaml\n'}
+[7.282084] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[7.282143] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[7.282189] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[7.282233] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[7.282277] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[7.282324] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[7.282366] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[7.282407] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[7.282450] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[7.282492] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[7.282534] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.dsv\n'}
+[7.282590] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[7.282643] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[7.282699] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.282745] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.282788] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.282831] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[7.282868] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[7.282909] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.xml\n'}
+[7.283964] (usb_cam) CommandEnded: {'returncode': 0}
+[7.318393] (-) TimerEvent: {}
+[7.347576] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[7.348280] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+source;share/chironix_image_pipeline/local_setup.bash
+source;share/chironix_image_pipeline/local_setup.dsv
+source;share/chironix_image_pipeline/local_setup.sh
+source;share/chironix_image_pipeline/local_setup.zsh

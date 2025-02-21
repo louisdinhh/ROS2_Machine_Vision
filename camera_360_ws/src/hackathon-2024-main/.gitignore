@@ -1,0 +1,7 @@
+workspace/build
+workspace/install
+workspace/log
+workspace/extrinsic_camera_data
+workspace/src/chironix_camera/calibration_results/*.png
+
+.vscode/

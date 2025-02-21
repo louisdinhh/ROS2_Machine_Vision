@@ -1,0 +1,1 @@
+Invoking command in '/home/louisdinhh/camera_stereo_ws/build/ros2_shared': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/ros2_shared -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/ros2_shared

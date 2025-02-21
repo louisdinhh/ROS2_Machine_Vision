@@ -1,0 +1,45 @@
+<launch>
+    <node pkg="usb_cam" exec="usb_cam_node_exe" name="usb_cam_driver" output="screen">
+        <remap from="image_raw" to="/usb_cam/raw/image" />
+        <remap from="camera_info" to="/usb_cam/raw/camera_info" />
+        <remap from="image_raw/compressed" to="/usb_cam/raw/image/compressed" />
+        <remap from="image_raw/compressedDepth" to="/usb_cam/raw/image/compressedDepth" />
+        <remap from="image_raw/theora" to="/usb_cam/raw/image/theora" />        
+        <param from="$(find-pkg-share chironix_image_pipeline)/config/camera_param.yaml" />
+    </node>
+
+    <node pkg="rclcpp_components" exec="component_container_mt" name="tags_container" />
+    <load_composable_node target="tags_container">
+        <composable_node pkg="isaac_ros_image_proc"
+            plugin="nvidia::isaac_ros::image_proc::RectifyNode" name="rect_node">
+            <remap from="image_raw" to="/usb_cam/raw/image" />
+            <remap from="camera_info" to="/usb_cam/raw/camera_info" />
+            <param name="output_width" value="1920" />
+            <param name="output_height" value="1200" />
+            <remap from="image_rect" to="/usb_cam/rect/image" />
+            <remap from="camera_info_rect" to="/usb_cam/rect/camera_info" />
+        </composable_node>
+    </load_composable_node>
+
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="map_to_base_link" output="screen"
+        args="1 0 0 0 0 0 map base_link" />
+
+    <!-- USB Cam  definition -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="base_link_to_usb_cam" output="screen"
+        args="0 0 0.5 0 1.047198 0 base_link usb_cam" />
+
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="usb_cam_to_usb_cam_optical" output="screen"
+        args="0 0 0 -1.570796 0 -1.570796 usb_cam usb_cam_optical" />
+
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="usb_cam_to_test_frame_1" output="screen"
+        args="0.5 0 -0.25 0 0 0 usb_cam test_frame_1" />
+
+    <!-- Reproject -->
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="usb_cam_to_reproject_cam" output="screen"
+        args="0 0 0 0 0.5235988 0 usb_cam reproject_cam" />
+
+    <node pkg="tf2_ros" exec="static_transform_publisher" name="reproject_cam_to_reproject_cam_optical" output="screen"
+        args="0 0 0 -1.570796 0 -1.570796 reproject_cam reproject_cam_optical" />
+
+
+</launch>

@@ -1,0 +1,8 @@
+{
+    "name": "ROS2 Dev Container",
+    "dockerComposeFile": "../compose.yaml",
+    "service": "ros2-dev-container",
+    "workspaceFolder": "/workspace",
+    "initializeCommand": "xhost +local:docker",
+    "shutdownAction": "stopCompose"
+  }

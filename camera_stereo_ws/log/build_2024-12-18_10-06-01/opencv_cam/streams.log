@@ -1,0 +1,92 @@
+[0.006s] Invoking command in '/home/louisdinhh/camera_stereo_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/opencv_cam -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/opencv_cam
+[0.037s] -- The C compiler identification is GNU 11.4.0
+[0.073s] -- The CXX compiler identification is GNU 11.4.0
+[0.077s] -- Detecting C compiler ABI info
+[0.120s] -- Detecting C compiler ABI info - done
+[0.124s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.125s] -- Detecting C compile features
+[0.125s] -- Detecting C compile features - done
+[0.127s] -- Detecting CXX compiler ABI info
+[0.175s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.184s] -- Detecting CXX compile features - done
+[0.193s] -- Found OpenCV version 4.5.4
+[0.195s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.294s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.358s] -- Found camera_calibration_parsers: 3.1.10 (/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake)
+[0.391s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.394s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.399s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.443s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.445s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.492s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.509s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.534s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.540s] -- Looking for pthread.h
+[0.582s] -- Looking for pthread.h - found
+[0.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.627s] -- Found Threads: TRUE  
+[0.683s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[0.688s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.699s] -- Found ros2_shared: 0.1.0 (/home/louisdinhh/camera_stereo_ws/install/ros2_shared/share/ros2_shared/cmake)
+[0.746s] -- Configuring done
+[0.763s] -- Generating done
+[0.764s] -- Build files have been written to: /home/louisdinhh/camera_stereo_ws/build/opencv_cam
+[0.771s] Invoked command in '/home/louisdinhh/camera_stereo_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/opencv_cam -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/opencv_cam
+[0.772s] Invoking command in '/home/louisdinhh/camera_stereo_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/louisdinhh/camera_stereo_ws/build/opencv_cam -- -j12 -l12
+[0.801s] [ 12%] [32mBuilding CXX object CMakeFiles/opencv_cam_node.dir/src/opencv_cam_node.cpp.o[0m
+[0.801s] [ 25%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[4.236s] [ 37%] [32m[1mLinking CXX shared library libopencv_cam_node.so[0m
+[4.596s] [ 37%] Built target opencv_cam_node
+[4.617s] [ 50%] [32mBuilding CXX object CMakeFiles/opencv_cam_main.dir/src/opencv_cam_main.cpp.o[0m
+[7.384s] [ 62%] [32m[1mLinking CXX shared library libsubscriber_node.so[0m
+[7.698s] [ 62%] Built target subscriber_node
+[7.714s] [ 75%] [32mBuilding CXX object CMakeFiles/ipc_test_main.dir/src/ipc_test_main.cpp.o[0m
+[8.409s] [ 87%] [32m[1mLinking CXX executable opencv_cam_main[0m
+[8.905s] [ 87%] Built target opencv_cam_main
+[9.880s] [100%] [32m[1mLinking CXX executable ipc_test_main[0m
+[10.225s] [100%] Built target ipc_test_main
+[10.232s] Invoked command in '/home/louisdinhh/camera_stereo_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/louisdinhh/camera_stereo_ws/build/opencv_cam -- -j12 -l12
+[10.249s] Invoking command in '/home/louisdinhh/camera_stereo_ws/build/opencv_cam': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/louisdinhh/camera_stereo_ws/build/opencv_cam
+[10.253s] -- Install configuration: ""
+[10.253s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/environment/library_path.sh
+[10.253s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/environment/library_path.dsv
+[10.253s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/ament_index/resource_index/package_run_dependencies/opencv_cam
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/ament_index/resource_index/parent_prefix_path/opencv_cam
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.sh
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/environment/ament_prefix_path.dsv
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/environment/path.sh
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/environment/path.dsv
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/local_setup.bash
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/local_setup.sh
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/local_setup.zsh
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/local_setup.dsv
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/package.dsv
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/ament_index/resource_index/packages/opencv_cam
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/ament_index/resource_index/rclcpp_components/opencv_cam
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport.cmake
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/export_opencv_cam_nodeExport-noconfig.cmake
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport.cmake
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/export_subscriber_nodeExport-noconfig.cmake
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_targets-extras.cmake
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[10.254s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig.cmake
+[10.255s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/cmake/opencv_camConfig-version.cmake
+[10.255s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/package.xml
+[10.255s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib/libopencv_cam_node.so
+[10.256s] -- Set runtime path of "/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib/libopencv_cam_node.so" to ""
+[10.256s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib/libsubscriber_node.so
+[10.258s] -- Set runtime path of "/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib/libsubscriber_node.so" to ""
+[10.258s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main
+[10.259s] -- Set runtime path of "/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib/opencv_cam/opencv_cam_main" to ""
+[10.259s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main
+[10.259s] -- Set runtime path of "/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib/opencv_cam/ipc_test_main" to ""
+[10.259s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/launch
+[10.259s] -- Installing: /home/louisdinhh/camera_stereo_ws/install/opencv_cam/share/opencv_cam/launch/composition_launch.py
+[10.260s] Invoked command in '/home/louisdinhh/camera_stereo_ws/build/opencv_cam' returned '0': AMENT_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/louisdinhh/camera_stereo_ws/build/opencv_cam

@@ -1,0 +1,397 @@
+[0.060s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'usb_cam']
+[0.061s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['usb_cam'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x776a77c2b670>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x776a77d4bca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x776a77d4bca0>>, mixin_verb=('build',))
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.155s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/louisdinhh/camera_stereo_ws'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.155s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ros'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['cmake', 'python']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'cmake'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['python_setup_py']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python_setup_py'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_calibration_parsers' with type 'ros.ament_cmake' and name 'camera_calibration_parsers'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager' with type 'ros.ament_cmake' and name 'camera_info_manager'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager_py) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager_py' with type 'ros.ament_python' and name 'camera_info_manager_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ros'
+[0.167s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_common' with type 'ros.ament_cmake' and name 'image_common'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_transport' with type 'ros.ament_cmake' and name 'image_transport'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) ignored
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ros'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['cmake', 'python']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'cmake'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'python'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['python_setup_py']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'python_setup_py'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/camera_calibration' with type 'ros.ament_python' and name 'camera_calibration'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/depth_image_proc' with type 'ros.ament_cmake' and name 'depth_image_proc'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_pipeline' with type 'ros.ament_cmake' and name 'image_pipeline'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_proc' with type 'ros.ament_cmake' and name 'image_proc'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_publisher' with type 'ros.ament_cmake' and name 'image_publisher'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_rotate' with type 'ros.ament_cmake' and name 'image_rotate'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_view' with type 'ros.ament_cmake' and name 'image_view'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/stereo_image_proc' with type 'ros.ament_cmake' and name 'stereo_image_proc'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/tracetools_image_pipeline' with type 'ros.ament_cmake' and name 'tracetools_image_pipeline'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_cam) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_cam' with type 'ros.ament_cmake' and name 'opencv_cam'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_shared' with type 'ros.ament_cmake' and name 'ros2_shared'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_camera) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_camera) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_camera) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_camera) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_camera) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_camera) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_camera) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/stereo_camera) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stereo_camera' with type 'ros.ament_cmake' and name 'stereo_camera'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_calibration' in 'src/image_pipeline/camera_calibration'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_calibration_parsers' in 'src/image_common/camera_calibration_parsers'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_info_manager_py' in 'src/image_common/camera_info_manager_py'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_transport' in 'src/image_common/image_transport'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_shared' in 'src/ros2_shared'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tracetools_image_pipeline' in 'src/image_pipeline/tracetools_image_pipeline'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_info_manager' in 'src/image_common/camera_info_manager'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depth_image_proc' in 'src/image_pipeline/depth_image_proc'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_proc' in 'src/image_pipeline/image_proc'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_rotate' in 'src/image_pipeline/image_rotate'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_view' in 'src/image_pipeline/image_view'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'opencv_cam' in 'src/opencv_cam'
+[0.201s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'stereo_camera' in 'src/stereo_camera'
+[0.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_common' in 'src/image_common/image_common'
+[0.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_publisher' in 'src/image_pipeline/image_publisher'
+[0.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'stereo_image_proc' in 'src/image_pipeline/stereo_image_proc'
+[0.202s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_pipeline' in 'src/image_pipeline/image_pipeline'
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.203s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/louisdinhh/camera_stereo_ws/install
+[0.204s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 430 installed packages in /opt/ros/humble
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/louisdinhh/camera_stereo_ws/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/louisdinhh/camera_stereo_ws/install/usb_cam', 'merge_install': False, 'path': '/home/louisdinhh/camera_stereo_ws/src/usb_cam', 'symlink_install': False, 'test_result_base': None}
+[0.232s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.233s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/louisdinhh/camera_stereo_ws/src/usb_cam' with build type 'ament_cmake'
+[0.233s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/louisdinhh/camera_stereo_ws/src/usb_cam'
+[0.234s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louisdinhh/camera_stereo_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/lib:/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/lib:/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib:/home/louisdinhh/camera_stereo_ws/install/image_view/lib:/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib:/home/louisdinhh/camera_stereo_ws/install/image_publisher/lib:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/usb_cam
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louisdinhh/camera_stereo_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/lib:/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/lib:/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib:/home/louisdinhh/camera_stereo_ws/install/image_view/lib:/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib:/home/louisdinhh/camera_stereo_ws/install/image_publisher/lib:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake /home/louisdinhh/camera_stereo_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/louisdinhh/camera_stereo_ws/install/usb_cam
+[1.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louisdinhh/camera_stereo_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/lib:/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/lib:/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib:/home/louisdinhh/camera_stereo_ws/install/image_view/lib:/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib:/home/louisdinhh/camera_stereo_ws/install/image_publisher/lib:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/louisdinhh/camera_stereo_ws/build/usb_cam -- -j12 -l12
+[7.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louisdinhh/camera_stereo_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/lib:/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/lib:/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib:/home/louisdinhh/camera_stereo_ws/install/image_view/lib:/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib:/home/louisdinhh/camera_stereo_ws/install/image_publisher/lib:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --build /home/louisdinhh/camera_stereo_ws/build/usb_cam -- -j12 -l12
+[7.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/louisdinhh/camera_stereo_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/lib:/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/lib:/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib:/home/louisdinhh/camera_stereo_ws/install/image_view/lib:/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib:/home/louisdinhh/camera_stereo_ws/install/image_publisher/lib:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --install /home/louisdinhh/camera_stereo_ws/build/usb_cam
+[7.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[7.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/louisdinhh/camera_stereo_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager:/home/louisdinhh/camera_stereo_ws/install/image_transport:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers:/home/louisdinhh/camera_stereo_ws/install/image_pipeline:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc:/home/louisdinhh/camera_stereo_ws/install/image_proc:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline:/home/louisdinhh/camera_stereo_ws/install/opencv_cam:/home/louisdinhh/camera_stereo_ws/install/ros2_shared:/home/louisdinhh/camera_stereo_ws/install/image_view:/home/louisdinhh/camera_stereo_ws/install/image_rotate:/home/louisdinhh/camera_stereo_ws/install/image_publisher:/home/louisdinhh/camera_stereo_ws/install/image_common:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc:/home/louisdinhh/camera_stereo_ws/install/stereo_camera:/home/louisdinhh/camera_stereo_ws/install/camera_info_manager_py:/home/louisdinhh/camera_stereo_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/home/louisdinhh/camera_stereo_ws/install/camera_info_manager/lib:/home/louisdinhh/camera_stereo_ws/install/image_transport/lib:/home/louisdinhh/camera_stereo_ws/install/camera_calibration_parsers/lib:/home/louisdinhh/camera_stereo_ws/install/stereo_image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/image_proc/lib:/home/louisdinhh/camera_stereo_ws/install/tracetools_image_pipeline/lib:/home/louisdinhh/camera_stereo_ws/install/opencv_cam/lib:/home/louisdinhh/camera_stereo_ws/install/image_view/lib:/home/louisdinhh/camera_stereo_ws/install/image_rotate/lib:/home/louisdinhh/camera_stereo_ws/install/image_publisher/lib:/home/louisdinhh/camera_stereo_ws/install/depth_image_proc/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/usr/share/gurumdds/cmake/../../../lib:/opt/ros/humble/lib /usr/bin/cmake --install /home/louisdinhh/camera_stereo_ws/build/usb_cam
+[7.518s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam' for CMake module files
+[7.518s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam' for CMake config files
+[7.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[7.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[7.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[7.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[7.520s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/lib'
+[7.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[7.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[7.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[7.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[7.521s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/bin'
+[7.521s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[7.521s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/python3.10/site-packages'
+[7.521s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/bin'
+[7.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.ps1'
+[7.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.dsv'
+[7.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.sh'
+[7.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.bash'
+[7.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.zsh'
+[7.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[7.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usb_cam)
+[7.567s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam' for CMake module files
+[7.568s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam' for CMake config files
+[7.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'cmake_prefix_path')
+[7.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.ps1'
+[7.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.dsv'
+[7.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/cmake_prefix_path.sh'
+[7.572s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/lib'
+[7.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('usb_cam', 'ld_library_path_lib')
+[7.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.ps1'
+[7.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.dsv'
+[7.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/hook/ld_library_path_lib.sh'
+[7.574s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/bin'
+[7.575s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/pkgconfig/usb_cam.pc'
+[7.575s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/lib/python3.10/site-packages'
+[7.576s] Level 1:colcon.colcon_core.environment:checking '/home/louisdinhh/camera_stereo_ws/install/usb_cam/bin'
+[7.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.ps1'
+[7.578s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.dsv'
+[7.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.sh'
+[7.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.bash'
+[7.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/usb_cam/package.zsh'
+[7.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/louisdinhh/camera_stereo_ws/install/usb_cam/share/colcon-core/packages/usb_cam)
+[7.580s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.581s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.588s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.589s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.589s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.602s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louisdinhh/camera_stereo_ws/install/local_setup.ps1'
+[7.605s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/louisdinhh/camera_stereo_ws/install/_local_setup_util_ps1.py'
+[7.607s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louisdinhh/camera_stereo_ws/install/setup.ps1'
+[7.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louisdinhh/camera_stereo_ws/install/local_setup.sh'
+[7.610s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/louisdinhh/camera_stereo_ws/install/_local_setup_util_sh.py'
+[7.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louisdinhh/camera_stereo_ws/install/setup.sh'
+[7.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louisdinhh/camera_stereo_ws/install/local_setup.bash'
+[7.612s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louisdinhh/camera_stereo_ws/install/setup.bash'
+[7.613s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/louisdinhh/camera_stereo_ws/install/local_setup.zsh'
+[7.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/louisdinhh/camera_stereo_ws/install/setup.zsh'

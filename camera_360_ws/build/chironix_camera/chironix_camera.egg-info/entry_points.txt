@@ -1,0 +1,4 @@
+[console_scripts]
+multi_camera_capture = chironix_camera.multi_camera_capture:main
+multi_camera_stitcher = chironix_camera.multi_camera_stitcher:main
+

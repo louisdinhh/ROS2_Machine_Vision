@@ -1,0 +1,37 @@
+running egg_info
+creating ../build/panorama_cam/panorama_cam.egg-info
+writing ../build/panorama_cam/panorama_cam.egg-info/PKG-INFO
+writing dependency_links to ../build/panorama_cam/panorama_cam.egg-info/dependency_links.txt
+writing entry points to ../build/panorama_cam/panorama_cam.egg-info/entry_points.txt
+writing requirements to ../build/panorama_cam/panorama_cam.egg-info/requires.txt
+writing top-level names to ../build/panorama_cam/panorama_cam.egg-info/top_level.txt
+writing manifest file '../build/panorama_cam/panorama_cam.egg-info/SOURCES.txt'
+reading manifest file '../build/panorama_cam/panorama_cam.egg-info/SOURCES.txt'
+writing manifest file '../build/panorama_cam/panorama_cam.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/louisdinhh/camera_panorama_ws/src/build/panorama_cam/build
+creating /home/louisdinhh/camera_panorama_ws/src/build/panorama_cam/build/lib
+creating /home/louisdinhh/camera_panorama_ws/src/build/panorama_cam/build/lib/panorama_cam
+copying panorama_cam/__init__.py -> /home/louisdinhh/camera_panorama_ws/src/build/panorama_cam/build/lib/panorama_cam
+copying panorama_cam/panorama_node.py -> /home/louisdinhh/camera_panorama_ws/src/build/panorama_cam/build/lib/panorama_cam
+running install
+running install_lib
+creating /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/lib/python3.10/site-packages/panorama_cam
+copying /home/louisdinhh/camera_panorama_ws/src/build/panorama_cam/build/lib/panorama_cam/__init__.py -> /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/lib/python3.10/site-packages/panorama_cam
+copying /home/louisdinhh/camera_panorama_ws/src/build/panorama_cam/build/lib/panorama_cam/panorama_node.py -> /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/lib/python3.10/site-packages/panorama_cam
+byte-compiling /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/lib/python3.10/site-packages/panorama_cam/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/lib/python3.10/site-packages/panorama_cam/panorama_node.py to panorama_node.cpython-310.pyc
+running install_data
+creating /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/share/ament_index
+creating /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/share/ament_index/resource_index
+creating /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/share/ament_index/resource_index/packages
+copying resource/panorama_cam -> /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/share/ament_index/resource_index/packages
+copying package.xml -> /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/share/panorama_cam
+creating /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/share/panorama_cam/launch
+copying launch/panorama_cam.launch.py -> /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/share/panorama_cam/launch
+running install_egg_info
+Copying ../build/panorama_cam/panorama_cam.egg-info to /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/lib/python3.10/site-packages/panorama_cam-0.0.0-py3.10.egg-info
+running install_scripts
+Installing panorama_node script to /home/louisdinhh/camera_panorama_ws/src/install/panorama_cam/lib/panorama_cam
+writing list of installed files to '/home/louisdinhh/camera_panorama_ws/src/build/panorama_cam/install.log'

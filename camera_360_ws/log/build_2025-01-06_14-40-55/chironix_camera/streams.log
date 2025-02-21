@@ -1,0 +1,54 @@
+[0.708s] Invoking command in '/home/louisdinhh/camera_360_ws/src/hackathon-2024-main/workspace/src/chironix_camera': PYTHONPATH=/home/louisdinhh/camera_360_ws/build/chironix_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/chironix_camera build --build-base /home/louisdinhh/camera_360_ws/build/chironix_camera/build install --record /home/louisdinhh/camera_360_ws/build/chironix_camera/install.log --single-version-externally-managed install_data
+[0.852s] running egg_info
+[0.852s] creating ../../../../../build/chironix_camera/chironix_camera.egg-info
+[0.852s] writing ../../../../../build/chironix_camera/chironix_camera.egg-info/PKG-INFO
+[0.852s] writing dependency_links to ../../../../../build/chironix_camera/chironix_camera.egg-info/dependency_links.txt
+[0.852s] writing entry points to ../../../../../build/chironix_camera/chironix_camera.egg-info/entry_points.txt
+[0.852s] writing requirements to ../../../../../build/chironix_camera/chironix_camera.egg-info/requires.txt
+[0.852s] writing top-level names to ../../../../../build/chironix_camera/chironix_camera.egg-info/top_level.txt
+[0.852s] writing manifest file '../../../../../build/chironix_camera/chironix_camera.egg-info/SOURCES.txt'
+[0.854s] reading manifest file '../../../../../build/chironix_camera/chironix_camera.egg-info/SOURCES.txt'
+[0.854s] writing manifest file '../../../../../build/chironix_camera/chironix_camera.egg-info/SOURCES.txt'
+[0.854s] running build
+[0.854s] running build_py
+[0.854s] creating /home/louisdinhh/camera_360_ws/build/chironix_camera/build
+[0.854s] creating /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib
+[0.854s] creating /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera
+[0.854s] copying chironix_camera/multi_camera_intrinsic.py -> /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera
+[0.854s] copying chironix_camera/extrinsic_results_to_transform.py -> /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera
+[0.855s] copying chironix_camera/__init__.py -> /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera
+[0.855s] copying chironix_camera/multi_camera_capture.py -> /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera
+[0.855s] copying chironix_camera/multi_camera_stitcher.py -> /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera
+[0.855s] running install
+[0.855s] running install_lib
+[0.855s] creating /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera
+[0.855s] copying /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera/multi_camera_intrinsic.py -> /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera
+[0.855s] copying /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera/extrinsic_results_to_transform.py -> /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera
+[0.855s] copying /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera/__init__.py -> /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera
+[0.855s] copying /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera/multi_camera_capture.py -> /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera
+[0.855s] copying /home/louisdinhh/camera_360_ws/build/chironix_camera/build/lib/chironix_camera/multi_camera_stitcher.py -> /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera
+[0.856s] byte-compiling /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera/multi_camera_intrinsic.py to multi_camera_intrinsic.cpython-310.pyc
+[0.856s] byte-compiling /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera/extrinsic_results_to_transform.py to extrinsic_results_to_transform.cpython-310.pyc
+[0.857s] byte-compiling /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera/__init__.py to __init__.cpython-310.pyc
+[0.857s] byte-compiling /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera/multi_camera_capture.py to multi_camera_capture.cpython-310.pyc
+[0.857s] byte-compiling /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera/multi_camera_stitcher.py to multi_camera_stitcher.cpython-310.pyc
+[0.858s] running install_data
+[0.858s] creating /home/louisdinhh/camera_360_ws/install/chironix_camera/share/ament_index
+[0.858s] creating /home/louisdinhh/camera_360_ws/install/chironix_camera/share/ament_index/resource_index
+[0.858s] creating /home/louisdinhh/camera_360_ws/install/chironix_camera/share/ament_index/resource_index/packages
+[0.858s] copying resource/chironix_camera -> /home/louisdinhh/camera_360_ws/install/chironix_camera/share/ament_index/resource_index/packages
+[0.858s] copying package.xml -> /home/louisdinhh/camera_360_ws/install/chironix_camera/share/chironix_camera
+[0.858s] creating /home/louisdinhh/camera_360_ws/install/chironix_camera/share/chironix_camera/launch
+[0.859s] copying launch/camera_launch.py -> /home/louisdinhh/camera_360_ws/install/chironix_camera/share/chironix_camera/launch
+[0.859s] copying launch/intrinsic_calibrate_launch.py -> /home/louisdinhh/camera_360_ws/install/chironix_camera/share/chironix_camera/launch
+[0.859s] copying launch/rectified_camera_launch.py -> /home/louisdinhh/camera_360_ws/install/chironix_camera/share/chironix_camera/launch
+[0.859s] creating /home/louisdinhh/camera_360_ws/install/chironix_camera/share/chironix_camera/calibrations
+[0.859s] copying calibrations/left.yaml -> /home/louisdinhh/camera_360_ws/install/chironix_camera/share/chironix_camera/calibrations
+[0.859s] copying calibrations/right.yaml -> /home/louisdinhh/camera_360_ws/install/chironix_camera/share/chironix_camera/calibrations
+[0.859s] copying calibrations/extrinsic.yaml -> /home/louisdinhh/camera_360_ws/install/chironix_camera/share/chironix_camera/calibrations
+[0.859s] running install_egg_info
+[0.860s] Copying ../../../../../build/chironix_camera/chironix_camera.egg-info to /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/python3.10/site-packages/chironix_camera-0.0.0-py3.10.egg-info
+[0.860s] running install_scripts
+[0.874s] Installing multi_camera_capture script to /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/chironix_camera
+[0.874s] Installing multi_camera_stitcher script to /home/louisdinhh/camera_360_ws/install/chironix_camera/lib/chironix_camera
+[0.875s] writing list of installed files to '/home/louisdinhh/camera_360_ws/build/chironix_camera/install.log'

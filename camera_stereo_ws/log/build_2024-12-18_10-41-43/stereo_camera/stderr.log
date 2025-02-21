@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/louisdinhh/camera_stereo_ws/src/stereo_camera/scripts": No such file
+  or directory.
+
+[0m

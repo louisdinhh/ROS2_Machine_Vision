@@ -1,0 +1,3 @@
+[console_scripts]
+surround_cam = surround_cam.surround_merger:main
+

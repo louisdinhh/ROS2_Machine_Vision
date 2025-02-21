@@ -1,0 +1,13 @@
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/uninstall.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/opencv_cam_uninstall.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/opencv_cam_node.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/subscriber_node.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/opencv_cam_main.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/ipc_test_main.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/test.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/edit_cache.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/rebuild_cache.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/list_install_components.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/install.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/install/local.dir
+/home/louisdinhh/camera_stereo_ws/build/opencv_cam/CMakeFiles/install/strip.dir

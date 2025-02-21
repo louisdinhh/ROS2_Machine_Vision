@@ -1,0 +1,4 @@
+*.db3 filter=lfs diff=lfs merge=lfs -text
+metadata.yaml filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text

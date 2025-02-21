@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  ros2-dev-container:
+    build: .
+    container_name: ros2-dev-container
+    privileged: true   # Allows access to USB devices
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./workspace:/workspace  # Mount local ROS 2 workspace
+      - /tmp/.X11-unix:/tmp/.X11-unix  # Mount X11 socket for GUI
+    environment:
+      - DISPLAY=${DISPLAY}  # Pass display variable to enable GUI
+      - ROS_DOMAIN_ID=0  # ROS 2 domain ID for multiple nodes
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
