@@ -253,6 +253,11 @@ Rebuild the Docker image after modifying the Dockerfile.
 
 This workspace demonstrates how to set up, train, and evaluate **YOLOv8** models for object detection. It includes dataset preparation, model training, inference, and visualization using Python.
 
+
+![YOLOv8 Detection Result](machineVisionImg/Yolo.png)
+
+*Figure: Object detection result using the trained YOLOv8 model.*
+
 ---
 
 ## 📦 Prerequisites
@@ -391,3 +396,68 @@ The script will:
 
 ---
 
+# 🌍 360° Camera Processing
+
+This workspace explores **360-degree camera processing** techniques, including panoramic image generation, image stitching, and stabilization methods for creating seamless wide-angle views.
+
+The workspace focuses on two main approaches:
+
+- **Blended Solution** – Combining multiple camera views to create a continuous panoramic image.
+- **Image Stitching Solution** – Using feature detection and geometric transformations to align and merge images.
+
+---
+
+# 🧩 Blended Solution
+
+## 🎯 Objective
+
+Implement a blending-based approach for processing images captured from a 360° camera system.
+
+The goal is to combine overlapping camera views smoothly while minimizing visible seams between images.
+
+
+---
+
+## 🔍 Stitching Pipeline
+
+The stitching process consists of the following steps:
+
+### 1. 📌 Feature Detection (SIFT)
+
+**Scale-Invariant Feature Transform (SIFT)** is used to detect and describe key points between overlapping images.
+
+This allows the system to identify common features across multiple camera frames.
+
+---
+
+### 2. 🔗 Feature Matching
+
+Detected features are matched between images to determine corresponding points.
+
+The matched features are used to estimate the relationship between camera views.
+
+---
+
+### 3. 📐 Homography Estimation
+
+A homography matrix is calculated to transform one image plane into another.
+
+This allows images captured from different viewpoints to be aligned correctly.
+
+---
+
+### 4. 🛠️ Stabilisation
+
+Homography stabilization is applied to reduce image movement and improve panorama consistency.
+
+This helps produce smoother and more stable panoramic outputs.
+
+---
+
+![YOLOv8 Detection Result](machineVisionImg/blendsolution.png)
+
+*Figure: Example panoramic output generated from 360° camera processing using blended solution.*
+
+![YOLOv8 Detection Result](machineVisionImg/stitching with SIFT and homography stabilisation.png)
+
+*Figure: Example panoramic output generated from 360° camera processing using SIFT and homography stabilisation.*
