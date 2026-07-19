@@ -1,7 +1,6 @@
 # 🚀 User Guide
 
-Welcome to this repository! This collection of ROS workspaces was created to explore and implement key concepts in **computer vision**, **sensor calibration**, and **sensor fusion** for robotics and autonomous systems. Each workspace focuses on a specific topic, providing a hands-on environment for learning, experimentation, and practical implementation.
-
+Welcome to this repository! This collection of ROS workspaces was created to explore and implement key concepts in **computer vision**, **sensor calibration**, and **sensor fusion** for robotics and autonomous systems I used during my intern as a Robotics Engineer.
 ---
 
 # 📚 Repository Overview
@@ -94,11 +93,11 @@ This repository aims to:
 
 ```text
 .
-├── camera_calibration/
-├── camera_camera_calibration/
-├── camera_lidar_calibration/
-├── camera_360/
-├── yolov8_testing/
+├── camera_350_ws/
+├── camera_lidar_ws/
+├── camera_panorama_ws/
+├── camera_stereo_ws/
+├── yolo_training/
 └── README.md
 ```
 
