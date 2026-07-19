@@ -458,6 +458,6 @@ This helps produce smoother and more stable panoramic outputs.
 
 *Figure: Example panoramic output generated from 360° camera processing using blended solution.*
 
-![YOLOv8 Detection Result](machineVisionImg/stitching with SIFT and homography stabilisation.png)
+![YOLOv8 Detection Result](machineVisionImg/sift.png)
 
 *Figure: Example panoramic output generated from 360° camera processing using SIFT and homography stabilisation.*
